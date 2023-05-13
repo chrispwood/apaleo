@@ -1,30 +1,3 @@
-# Explore the Monte Carlo API!
-#
-# API Documentation can be found here: https://apidocs.getmontecarlo.com/
-#
-# If you want to run these queries outside of the dashboard (e.g. via curl),
-# you can follow these docs to generate and use an API token: 
-# https://docs.getmontecarlo.com/docs/creating-an-api-token 
-#
-# These queries can also be run using our Python SDK (with first class 
-# objects, pythonic snake_case, automatic retries, and more): 
-# https://pypi.org/project/pycarlo/ 
-#
-# For reference here is an example query to get user information. 
-# Press the play button to try it out:
-
-#query getUser {
-#   getUser {
-#     email
-#     firstName
-#     lastName
-#     createdOn
-#     role
-#     account {
-#       uuid
-#     }
-#   }
-# }
 import requests
 import json
 import sys
